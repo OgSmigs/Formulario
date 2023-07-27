@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./assests/style.css">
+</head>
+<body>
+    <section class="container">
+    <form class="datos">
+        <h1>Contact</h1>
+        <p>
+            <h3> Este formulario para el contacto del desarollador web</h3>
+        </p>
+
+        <table class="table">
+            <tr>
+                <td>
+                    <label for="username">Name:</label>
+                    <input id="username" type="text" id="name" placeholder=" First and Last Name"> 
+                    
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="correo">Email:</label>
+                    <input id="correo" type="text" id="email" placeholder=" Your Email"> 
+                    
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="password">Password:</label>
+                    <input id="password" type="password" id="Password" placeholder=" Insert Password"> 
+                </td>
+            </tr>   
+            
+
+            <tr>
+                <td>
+                    <label for="gender">Gender:</label>
+                    Male: <input type="radio" name="gender" value="Male">
+                    Female: <input type="radio" name="gender" value="Female">
+                </td>
+            </tr>      
+            
+
+            <tr>
+                <td>
+                <label for="language">Language:</label>
+                <select name="language" id="language">
+                    <option value="">Select Langauge</option>
+                    <option value="english">English</option>
+                    <option value="spanish">Spanish</option>
+                    <option value="portuguse">Portuguse</option>
+                    <option value="french">French</option>
+                    <option value="german">German</option>
+
+                </select>            
+            
+                </td>
+            </tr>   
+
+            <tr>
+                <td>
+                    <label for="zip">Zip Code:</label>
+                    <input id="zip" type="text" placeholder="Zip Code"> 
+                </td>
+            </tr>      
+            
+            
+            <tr>
+                <td>
+                    <label for="phonenumber">Phone Number:</label>
+                    <input id="phonenumber" type="number" placeholder=" Insert Password"> 
+                </td>
+            </tr>      
+                    
+            <tr>
+                <td>
+                    <label for="about">About:</label>
+                    <input id="about" type="text" placeholder="About"> 
+                </td>
+            </tr> 
+
+        </table>
+        
+        <tr>
+
+            <input type="submit" class="submit" value="Register">
+
+        </tr>
+
+    </form>
+</section>
+</body>
+</html>
